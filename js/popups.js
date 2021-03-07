@@ -12,40 +12,40 @@ button.onclick = function() {
 
 popup_button.onclick = function () {
 	images.src = imageSources[imgNumber];
-	/*if (imgNumber < 1) {
+	if (imgNumber < 1) {
 		imgNumber = imgNumber + 1;
 	} else if (imgNumber > 0) {
 		imgNumber = imgNumber - 1;
-	}*/
+	}
 	
 	
 }
 
 popup_button2.onclick = function () {
 	images.src=imageSources[imgNumber];
-	/*if (imgNumber < 1) {
+	if (imgNumber < 1) {
 		imgNumber = imgNumber + 1;
 	} else if (imgNumber > 0) {
 		imgNumber = imgNumber - 1;
-	}*/
+	}
 }
 
 document.body.onkeydown = (k) => {
 	if(k.key=="ArrowLeft") {
 		images.src = imageSources[imgNumber];
-	/*if (imgNumber < 1) {
+	if (imgNumber < 1) {
 		imgNumber = imgNumber + 1;
 	} else if (imgNumber > 0) {
 		imgNumber = imgNumber - 1;
 	}
-	}*/
+	}
 	if(k.key=="ArrowRight") {
 		images.src = imageSources[imgNumber];
-	/*if (imgNumber < 1) {
+	if (imgNumber < 1) {
 		imgNumber = imgNumber + 1;
 	} else if (imgNumber > 0) {
 		imgNumber = imgNumber - 1;
-	}*/
+	}
   }	 
 
 }
