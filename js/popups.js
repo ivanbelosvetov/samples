@@ -4,7 +4,7 @@ let popup_button = document.getElementById('popup__button');
 let popup_button2 = document.getElementById('popup__button2');
 let images = document.getElementById('img__11');
 let imgNumber = 0;
-//let imageSources = ["https://github.com/ivanbelosvetov/samples/gh-pages/img/Fishdom_1.jpg", "https://github.com/ivanbelosvetov/samples/gh-pages/img/Fishdom.jpg"]
+/let imageSources = ["samples/img/Fishdom.jpg", "samples/img/Fishdom_1.jpg"]
 button.onclick = function() {
 	textarea.classList.add('edit');
 
@@ -40,7 +40,7 @@ document.body.onkeydown = (k) => {
 	}
 	}*/
 	if(k.key=="ArrowRight") {
-		images.src = samples/img/Fishdom.jpg;
+		images.src = imageSources[imgNumber];
 	/*if (imgNumber < 1) {
 		imgNumber = imgNumber + 1;
 	} else if (imgNumber > 0) {
