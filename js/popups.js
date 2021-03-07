@@ -4,7 +4,7 @@ let popup_button = document.getElementById('popup__button');
 let popup_button2 = document.getElementById('popup__button2');
 let images = document.getElementById('img__11');
 let imgNumber = 0;
-let imageSources = ["D:/Vanechka/Программы/модальные окна/img/Fishdom_1.jpg", "D:/Vanechka/Программы/модальные окна/img/Fishdom.jpg"]
+let imageSources = ["../img/Fishdom_1.jpg", "../img/Fishdom.jpg"]
 button.onclick = function() {
 	textarea.classList.add('edit');
 
